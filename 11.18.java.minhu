@@ -1,0 +1,18 @@
+package com.company;
+
+import javax.swing.*;
+
+public class Hu {
+    private JPanel Huu;
+    void AD(){
+        JFrame frame = new JFrame("Hu");
+        frame.setContentPane(Huu);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(600,300);
+        frame.setVisible(true);
+    }
+    public static void main(String[] args) {
+        new Hu().AD();
+        }
+
+    }
