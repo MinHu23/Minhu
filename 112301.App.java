@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class APP {
 
-	       public class Test {
+
 	           public void main(String[] args) {
 	               Scanner scan = new Scanner(System.in);
 	               while (true){
@@ -16,4 +16,3 @@ public class APP {
 	               }
 	           }
 	       }
-}
